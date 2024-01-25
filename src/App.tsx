@@ -1,6 +1,7 @@
 // import Box from './components/Box';
 import { useState } from 'react';
-import Generics from './components/Generics';
+// import Generics from './components/Generics';
+import State from './components/State';
 
 function App() {
   const [val, setVal] = useState<string>('');
@@ -16,12 +17,14 @@ function App() {
       >
         {/* <h1>Children Prop</h1> */}
       {/* </Box> */}
-      // <h1></h1>
+      {/* // <h1></h1>
       <Generics
         label={'Search'}
         value={val}
         setter={setVal}
-      />
+      /> */}
+
+      <State />
     </div>
   );
 }
