@@ -1,10 +1,10 @@
 // import Box from './components/Box';
-import { useState } from 'react';
 // import Generics from './components/Generics';
+import Context from './components/Context';
 import State from './components/State';
 
 function App() {
-  const [val, setVal] = useState<string>('');
+  // const [val, setVal] = useState<string>('');
   return (
     <div className="App">
       <h1>Hello TypeScript</h1>
@@ -25,6 +25,7 @@ function App() {
       /> */}
 
       <State />
+      <Context />
     </div>
   );
 }
