@@ -2,6 +2,7 @@
 // import Generics from './components/Generics';
 import Context from './components/Context';
 import Reducer from './components/Reducer';
+import Redux from './components/Redux';
 import State from './components/State';
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
       <State />
       <Context />
       <Reducer />
+      <Redux />
     </div>
   );
 }
