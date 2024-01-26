@@ -1,6 +1,7 @@
 // import Box from './components/Box';
 // import Generics from './components/Generics';
 import Context from './components/Context';
+import Reducer from './components/Reducer';
 import State from './components/State';
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
 
       <State />
       <Context />
+      <Reducer />
     </div>
   );
 }
